@@ -18,7 +18,7 @@ describe('GitHub profile finder', function() {
     expect(profiles.get(0).getText()).toEqual('spike01');
   });
 
-  it('finds the last Spike', function() {
+  it('finds the first Spike', function() {
     searchBox.sendKeys('spike');
     searchButton.click();
 
